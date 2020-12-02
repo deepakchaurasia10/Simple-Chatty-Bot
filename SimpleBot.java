@@ -62,6 +62,9 @@ public class SimpleBot {
 	            {
 	                System.out.println("Please, try again.");
 	            }
+		    else if(ans <=0 || ans > 4 ) {
+	            	System.out.println("Invalid Input");
+	            }
 	            else 
 	            {
 	                bool = true ;
